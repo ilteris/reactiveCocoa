@@ -3,10 +3,13 @@ platform :ios, "6.0"
 
 target "Playground" do
 
-pod 'RXCollections', '1.0'
+pod 'ReactiveCocoa', '2.1.4'
+
 end
 
 target "PlaygroundTests" do
+
+pod 'ReactiveCocoa', '2.1.4'
 
 end
 

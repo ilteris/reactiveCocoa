@@ -1,10 +1,15 @@
 PODS:
-  - RXCollections (1.0)
+  - ReactiveCocoa (2.1.4):
+    - ReactiveCocoa/Core
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/Core (2.1.4):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.1.4)
 
 DEPENDENCIES:
-  - RXCollections (= 1.0)
+  - ReactiveCocoa (= 2.1.4)
 
 SPEC CHECKSUMS:
-  RXCollections: 7df8fcb97b433260a11ce226dd74b50545ff0a0f
+  ReactiveCocoa: 0e8725dd3c609128144c15192f4dbdab827f54ae
 
 COCOAPODS: 0.28.0
